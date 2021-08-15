@@ -1,0 +1,12 @@
+# Python internals
+__pycache__
+**/*.tmp
+
+# Python devtools
+.mypy_cache
+.pytest_cache
+.venv
+dist
+
+# Local test variables
+testing_cache
