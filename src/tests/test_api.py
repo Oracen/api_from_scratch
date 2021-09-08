@@ -25,7 +25,7 @@ class TestRoots:
     def test_apiv1_get_root(self):
         response = client.get("/v1/")
         assert response.status_code == 200
-        assert response.json() == {"message": "TODO: Finish schema service"}
+        assert response.json() == {"message": ""}
 
 
 class TestV1Users(BaseAPITest):
